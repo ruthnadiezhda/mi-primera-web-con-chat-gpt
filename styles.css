@@ -1,0 +1,99 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo pastel */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b3d4e0; /* Color de fondo pastel */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333; /* Color de texto oscuro */
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #666; /* Color de texto gris */
+}
+
+section p {
+    color: #444; /* Color de texto más oscuro */
+}
+
+section#destinos, section#experiencias, section#porque-elegirnos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section#destinos li, section#experiencias li {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #d9e6e8; /* Color de fondo pastel más claro */
+}
+
+section#destinos li h3, section#experiencias li h3 {
+    color: #007a99; /* Color de texto azul */
+}
+
+section#porque-elegirnos ul {
+    list-style: none;
+}
+
+form {
+    background-color: #d9e6e8; /* Color de fondo pastel más claro */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Color de texto oscuro */
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007a99; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005f75; /* Color de fondo azul oscuro al pasar el mouse */
+}
+
+footer {
+    background-color: #b3d4e0; /* Color de fondo pastel */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #666; /* Color de texto gris */
+}
